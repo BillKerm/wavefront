@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "wavefront:block/gravitic_catapult_packed"
+    }
+  }
+}

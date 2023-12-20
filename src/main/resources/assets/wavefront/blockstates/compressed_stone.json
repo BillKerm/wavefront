@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "wavefront:block/compressed_stone"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "wavefront",
+	"version": "${version}",
+	"name": "Wavefront",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wavefront/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "me.jebkerm.wavefront.Wavefront"
+		],
+		"fabric-datagen": [
+			"me.jebkerm.wavefront.WavefrontDataGenerator"
+		]
+	},
+	"mixins": [
+		"wavefront.mixins.json"
+	],
+	"accessWidener" : "wavefront.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.2",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

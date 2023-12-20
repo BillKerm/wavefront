@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.jebkerm.wavefront.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin",
+    "skybox.MoonRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
