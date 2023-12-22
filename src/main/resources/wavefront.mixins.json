@@ -3,12 +3,15 @@
   "package": "me.jebkerm.wavefront.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "skybox.MoonAngleRenderAdjusterMixin"
+    "common.WorldAccessor",
+    "skybox.SkyLightAdjusterMixin",
+    "skybox.SkyRenderAdjusterMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
   "client": [
-    "skybox.WorldRendererAccessor"
+    "client.ClientAccessor",
+    "client.HorizonFogAdjusterMixin"
   ]
 }
